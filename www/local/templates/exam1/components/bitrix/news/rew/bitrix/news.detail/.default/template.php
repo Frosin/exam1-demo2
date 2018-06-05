@@ -29,7 +29,7 @@ if (is_array($arResult["PROPERTIES"]["DOC"]["VALUE"]))
 $docCount = count($arResult["PROPERTIES"]["DOC"]["VALUE"]);
 ?>
 <?if ($docCount > 0):?>
-<p>Документы:</p>
+<p><?=GetMessage("DOCS")?></p>
 <?for ($i = 0; $i < $docCount; $i++){?>
 <div class="exam-review-item-doc"><img class="rew-doc-ico" src="<?=SITE_TEMPLATE_PATH?>/img/icons/pdf_ico_40.png"><a href="<?=CFile::GetPath($arResult["PROPERTIES"]["DOC"]["VALUE"][$i])?>">Файл <?=$i+1?></a></div>
 <?}?>

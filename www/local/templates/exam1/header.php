@@ -16,8 +16,8 @@ IncludeTemplateLangFile(__FILE__);
     <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.min.js")?>
     <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/owl.carousel.min.js")?>
     <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/scripts.js")?>
-    <link rel="icon" type="image/vnd.microsoft.icon"  href="./img/favicon.ico">
-    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon"  href="<?=SITE_TEMPLATE_PATH?>/img/favicon.ico">
+    <link rel="shortcut icon" href="<?=SITE_TEMPLATE_PATH?>/img/favicon.ico">
 </head>
 
 <body>
